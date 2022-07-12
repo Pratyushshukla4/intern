@@ -1,0 +1,129 @@
+body{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submodules{
+    width: 65vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    border: 2px solid yellow;
+    /* box-shadow: 1px 1px 0px 1px gray; */
+    border-radius: 5px;
+    overflow: hidden;
+}
+.submodule1{
+    width: 22%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    /* color: white; */
+    background-color: #fff;
+}
+.submodule1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.subhead{
+    /* border: 1px solid black; */
+    height: 60px;
+    font-size: 20px;
+    font-weight: 550;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .subb2{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.subprice{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(216, 229, 234);
+}
+.sub21{
+    font-size: 17px;
+   font-weight: 550;
+   
+}
+.sub22{
+    /* border: 1px solid red; */
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+
+}
+.doller{
+    font-size: 30px;
+    font-weight: 600;
+}
+.sub23{
+    font-size: 16px;
+    color: blue;
+}
+
+.subdesc{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    font-weight: 18px;
+}
+
+.subknow{
+    font-size: 19px;
+    color: blue;
+    cursor: pointer;
+}
+
+.slider{
+    width: 65vw;
+    height: 25px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none !important;
+}
+.hd1{
+    position: relative;
+}
+
+.new{
+    background-color: yellow;
+    transform: rotate(-35deg);
+    position: absolute;
+    left: -17px;
+    top: 11px;
+    width: 90px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+  
+
+}
